@@ -23,6 +23,29 @@ li {
     font-size: 2em;
 }
 
+p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 5px;
+}
+
+h1 {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    font-size: 2em;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .logo {
     width: 100px;
     height: 100px;
@@ -31,64 +54,63 @@ li {
     left: 0;
 }
 
-.main {
-    max-width: 100%;
-    position: absolute;
+.firstSection {
+    background-image: url('./CodeAcademy Project Pics/ave-calvar-opxOfzge2Tg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
-    opacity: .5;
-}
-
-.firstSection p {
-    background-color: aliceblue;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 250px;
-    left: 500px;
-    height: 100px;
-    width: 1500px;
-    font-size: 1.25em;
 }
 
-#firstPic {
-    width: 25%;
-    opacity: 1;
-    position: relative;
-    top: 300px;
-    margin: 10px;
+.firstSection div {
+    width: 33.33%;
 }
 
-#secondPic {
-    width: 25%;
-    opacity: 1;
-    position: relative;
-    top: 300px;
-    margin: 10px;
-}
-
-#thirdPic {
-    width: 25%;
-    opacity: 1;
-    position: relative;
-    top: 300px;
-    margin: 10px;
+.homePics {
+    width: 90%;
+    z-index: 4;
+    margin: 5px;
 }
 
 p.posts {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     background-color: white;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
 }
 
 .middleSection {
     background-color: white;
-    width: 700px;
-    height: 500px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .middleSection p {
     width: 300px;
     height: 300px;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.finalSection {
+    background-image: url('./CodeAcademy Project Pics/tezos-j4CysGLlLRA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer h4 {
+    margin-left: 10px;
+    margin-right: 10px;
 }
