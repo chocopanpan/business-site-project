@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: center;
     position: relative;
-    border-bottom: 1px solid purple;
+    border-bottom: 2px solid #372248;
 }
 
 ul {
@@ -19,6 +19,7 @@ li {
     list-style: none;
     display: inline-block;
     flex-wrap: wrap;
+    color: #372248;
     margin: 24px;
     font-size: 2em;
 }
@@ -41,9 +42,10 @@ h1 {
 }
 
 footer {
-    background-color: white;
     display: flex;
     justify-content: space-evenly;
+    background-color: #9DA3A4;
+    color: white;
 }
 
 .logo {
@@ -55,9 +57,10 @@ footer {
 }
 
 .firstSection {
-    background-image: url('./CodeAcademy Project Pics/ave-calvar-opxOfzge2Tg-unsplash.jpg');
+    /* background-image: url('./CodeAcademy Project Pics/ave-calvar-opxOfzge2Tg-unsplash.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background-color: #9DA3A4;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -85,16 +88,16 @@ p.posts {
 }
 
 .middleSection {
-    background-color: white;
+    background-color: aliceblue;
     width: 100%;
-    height: 300px;
+    height: 700px;
     display: flex;
     justify-content: center;
 }
 
 .middleSection p {
     width: 300px;
-    height: 300px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,8 +109,9 @@ p.posts {
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    height: 500px;
 }
 
 footer h4 {
